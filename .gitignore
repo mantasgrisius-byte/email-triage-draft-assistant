@@ -1,0 +1,19 @@
+# Environment variables and secrets — NEVER commit these
+.env
+.env.*
+*.key
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+
+# OS/editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Build/output
+dist/
+build/
